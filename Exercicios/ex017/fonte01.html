@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+     @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+       body {
+            font-family: 'Work Sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm, mm, in(signfica polegada), px, pc
+
+            Medidas Relativas
+            em, ex, rem, vw, vh, %
+            */
+            font-size: 1em;
+
+            /* lighter normal bold dolder*/
+
+        }
+
+        h1 {
+
+            /* shorthand font
+            -font-style -> font-size -> font family (ordem certa de usar o shrothand)
+            
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            */
+            font: italic bolder 3em 'Work sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 3em 'Work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores fuga distinctio iure beatae obcaecati recusandae vel non sequi ad. Officiis nostrum velit explicabo necessitatibus, eaque vero totam ipsam temporibus voluptatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, quasi, doloremque quae porro nemo doloribus optio non dicta asperiores ipsum cupiditate. Et quasi rerum nisi possimus reiciendis veritatis ipsam voluptatem?</p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem illo esse cumque, amet consequatur odio, sequi incidunt ut a sit magni adipisci hic at delectus sint dolore maiores omnis.</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem ea, iste ipsam beatae soluta placeat maxime dolorum, earum nemo consectetur enim impedit possimus numquam sed dolores pariatur? Maiores, accusantium libero.</p>
+    
+</body>
+</html>

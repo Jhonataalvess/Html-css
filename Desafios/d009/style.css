@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(34, 34, 34);
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+p {
+    color: whitesmoke;
+    text-decoration: underline;
+}
+
+div {
+    margin: auto;
+    max-width: 404px;
+}
