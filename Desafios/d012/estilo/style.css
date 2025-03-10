@@ -1,17 +1,16 @@
 @charset "UTF-8";
 
-* {
-    padding: 0px;
-    margin: 0px;
-   
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root {
     --fonte1: verdana, Geneva, Tahoma, sans-serif;
     --fonte2: "Passion One", sans-serif;
     --fonte3: "Sriracha", cursive;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
 html, body {
@@ -64,6 +63,9 @@ section.normal {
 section.imagem {
     background-color: rgb(51,51,51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -71,6 +73,11 @@ section.imagem > p {
     display: inline-block;
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.251);
+}
+
+section#img1 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
 }
 
 footer {
