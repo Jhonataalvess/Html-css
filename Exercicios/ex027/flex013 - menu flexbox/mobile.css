@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+span.material-icons {
+    display: block;
+    background-color: black;
+    padding: 5px;
+    width: 100vw;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: -10px;
+}
+
+span.material-icons:hover {
+    background-color: white;
+    color: black;
+    transition: background-color .5s;
+}
+
+header {
+    flex-flow: column nowrap;
+    
+}
+
+header > nav {
+    flex-flow: column nowrap;
+    margin-top: 15px;
+}
+
+header > h1 {
+    flex-basis: 50px;
+
+}
+
+header > nav > a {
+    width: 95vw;
+
+}
+

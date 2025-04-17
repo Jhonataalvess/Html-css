@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Flexbox</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 580px)">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
-<body>
+<body onresize="MudouTamanho()">
     <header>
         <h1>Meu Site</h1>
-        <nav>
+        <span class="material-icons" onclick="menuburger()">menu</span>
+        <nav id="itens">
             <a href="#">Opçao 1</a>
             <a href="#">Opçao 2</a>
             <a href="#">Opçao 3</a>
@@ -27,5 +31,6 @@
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe aut voluptatibus vel debitis ut harum facere consequatur quod dolores fuga, ipsum sequi eligendi suscipit, nihil incidunt totam magnam unde doloribus.
         </p>
     </main>
+    <script src="menuburger.js"></script>
 </body>
 </html>

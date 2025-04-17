@@ -17,7 +17,7 @@ header {
     background-color: gray;
     color: white;
     padding: 10px;
-
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -25,15 +25,19 @@ header {
 }
 
 header > h1 {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.507);
     font-variant: small-caps;
     flex: 0 0 200px;
     
 }
 
+span.material-icons {
+    display: none;
+}
+
 header > nav {
-    border: 1px dotted black;
+    /* border: 1px dotted black; */
     
     display: flex;
     flex-flow: row wrap;
