@@ -42,6 +42,7 @@ header > nav {
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    
 }
 
 header > nav > a {
@@ -62,10 +63,12 @@ header > nav > a:hover {
 
 main {
     background-color: white;
-    margin: 10px;
+    margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.356);
+    max-width: 1000px;
+    
 }
 
 main > h2 {
